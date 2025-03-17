@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div>
-      <Header></Header>
+      <Header/>
        {notes.map((note)=>{
         return(
           <Notes
@@ -20,7 +20,7 @@ function App() {
           />
         );
        })}
-      <Footer></Footer>
+      <Footer/>
       </div>
     </>
   )
